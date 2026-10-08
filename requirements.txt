@@ -1,0 +1,4 @@
+pygame>=2.5
+# Only needed for "Play with Hand Gestures"
+opencv-python>=4.8
+mediapipe>=0.10

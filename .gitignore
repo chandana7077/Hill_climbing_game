@@ -1,0 +1,23 @@
+# Local settings (commit .env.example instead)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Player progress
+savegame.json
+
+# Generated files (re-created automatically)
+models/hand_landmarker.task
+models/*.part
+models/*.tmp
+models/training_log.csv
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
